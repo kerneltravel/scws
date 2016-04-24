@@ -35,6 +35,8 @@ PHP 分词演示
 目前 scws 只提供源码包，和大多数 GNU 软件的编译安装步骤一样。下面我们以 `Linux` 系统为例，
 要求装有 `gcc` 编译器。`Windows` 上则建议用 [cygwin][3] 或 [mingw][4] 环境编译。
 
+**注意** Windows下对postgresql中文分词的支持，请看[这个项目](https://github.com/kerneltravel/zhparser)
+
 1. 取得 scws 源码并解压到当前目录
    ```
    wget -q -O - http://www.xunsearch.com/scws/down/scws-1.2.1.tar.bz2 | tar xjf -
